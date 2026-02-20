@@ -1,0 +1,28 @@
+@import "tailwindcss"; 
+
+
+@theme {
+  /* Fuentes */
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+  --font-display: "ashigea";
+
+  /* Paleta de Colores Corporativa */
+  --color-brand-fondo: #158ef3;
+  --color-brand-primary: #58718C;
+  --color-brand-accent: #10b981;
+  --color-ui-surface: #f8fafc;
+
+  /* Espaciados y Medidas Personalizadas */
+  --spacing-128: 32rem;
+  --spacing-hero: 40vh;
+
+  /* Sombras Personalizadas */
+  --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.5);
+
+  /* Puntos de Interrupción (Breakpoints) */
+  --breakpoint-xs: 375px;
+  --breakpoint-3xl: 1920px;
+
+  /* Radios de borde */
+  --radius-custom: 2rem;
+}
