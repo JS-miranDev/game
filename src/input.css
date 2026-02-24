@@ -26,3 +26,4 @@
   /* Radios de borde */
   --radius-custom: 2rem;
 }
+@import "tailwindcss";
